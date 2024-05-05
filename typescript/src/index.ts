@@ -31,6 +31,8 @@ Pulsar.registerFunction(
       sentence = "_" + sentence;
     }
 
+    console.log({ token, tokenGroup, prefix, segments, sentence });
+
     return sentence;
   }
 );
